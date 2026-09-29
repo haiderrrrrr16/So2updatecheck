@@ -1,7 +1,7 @@
 name: Check Standoff 2
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 permissions:
   actions: write
